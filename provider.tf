@@ -1,5 +1,7 @@
 provider "google" {
   credentials = "${file("./creds/serviceaccount.json")}"
-  project     = "GCP-Project-Name"
-  region      = "europe-west4"
+  project     = "vrams-project"
+  region      = "europe-west1"
 }
+
+
